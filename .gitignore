@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Gas reports
+gas-report.txt
+
+# Deployment artifacts
+deployments/
+.openzeppelin/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+build/
+dist/
+
+# Test outputs
+test-results/
+junit.xml
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Documentation
+docs/_build/
