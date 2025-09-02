@@ -1,0 +1,16 @@
+{
+  "detectors_to_exclude": [
+    "assembly",
+    "solc-version",
+    "low-level-calls"
+  ],
+  "exclude_informational": false,
+  "exclude_low": false,
+  "exclude_medium": false,
+  "exclude_high": false,
+  "solc": "solc",
+  "solc_args": "--optimize",
+  "compilation_skip": false,
+  "filter_paths": "node_modules/",
+  "generate_patches": false
+}
